@@ -14,42 +14,44 @@
 	<body style="background-color: #F6E8EA;">
 
 		<!-- Navbar Top start -->
-		<div class="bg-primary text-light fixed-top p-1 text-center">
-			<a href="#" class="text-white">Home</a>
-			<a href="#" class="text-white">About Us</a>
-			<a href="#" class="text-white">Gallery</a>
-			<a href="#" class="text-white">Contact Us</a>
+		<div style="background-color: #F6F1D1;" class="text-dark fixed-top p-1 text-center d-flex justify-content-around">
+			<a href="#home" class="text-dark">Home</a>
+			<a href="#aboutus" class="text-dark">About Us</a>
+			<a href="#gallery" class="text-dark">Gallery</a>
+			<a href="#skills" class="text-dark">Skills</a>
+			<a href="#projects" class="text-dark">Projects</a>
+			<a href="#contactus" class="text-dark">Contact Us</a>
 		</div>
 		<!-- Navbar Top end -->
 
 		<!-- Home start -->
-		<section class="background text-center">
+		<section id="home" class="background text-center">
 			<div class="container-bg">
 				<img style="border-radius: 200px;" src="https://i.pinimg.com/236x/26/00/13/260013e5cb3e6d410eb4d9a63df3cdb1.jpg">
-				<h3 class="background-title">Online Portfolio</h3>
+				<h3 class="background-title">Online Developer Portfolio</h3>
 				<p class="text-white">Hello! I am Rahul Sriharsha, pursuing btech in Environmental Engineering at IITB. I am a front end web developer. I know how to use HTML, CSS and Bootstraps to create good looking webistes like this.</p>
 			</div>		
 		</section>
 		<!-- Home end -->
 
 		<!-- About Us start -->
-		<div class="text-center" style="padding: 30px 15% 30px 15%;">
+		<div id="aboutus" class="text-center" style="padding: 30px 15% 30px 15%;">
 			<h2 class="text-center">About us</h2>
-			<div class="row">
-				<img class="col-6" src="https://image.shutterstock.com/image-photo/software-source-code-programming-on-260nw-634574354.jpg">
-				<p class="col-6 d-flex align-items-center">I learnt C++ in my first year and I started to learn a little bit of python in my second year.
+			<div class="row" class="something">
+				<img class="col-lg-6 col-md-12 col-sm-12 order-lg-1 order-md-1 order-sm-1" src="https://image.shutterstock.com/image-photo/software-source-code-programming-on-260nw-634574354.jpg">
+				<p class="col-lg-6 col-md-12 col-sm-12 order-lg-2 order-md-2 order-sm-2 d-flex align-items-center">I learnt C++ in my first year and I started to learn a little bit of python in my second year.
 				Now, I'm interested to learn more about web developing with the help of Zuitt!</p>
 			</div>	
 			<div class="row">
 				<img class="col-6 order-2" src="https://cdn.stocksnap.io/img-thumbs/280h/laptop-working_DOLNAISHLZ.jpg">
-				<p class="col-6 order-1 d-flex align-items-center"></p>	
+				<p class="col-6 order-1 d-flex align-items-center">I'm also passionate about music and finance, other than coding.</p>	
 			</div>
 
 		</div>
 		<!-- About Us end -->
 
 		<!-- Gallery start -->
-		<div style="padding: 30px 15% 30px 15%;" class="text-center">
+		<div id="gallery" style="padding: 30px 15% 30px 15%; background-color: #96ACB7;" class="text-center">
 			<h2 class="text-center">Gallery</h2>
 			<img style="width: 500px;" src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
 			<img style="width: 500px;" src="https://images.pexels.com/photos/39317/chihuahua-dog-puppy-cute-39317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
@@ -58,8 +60,37 @@
 		</div>
 		<!-- Gallery end -->
 
+		<!-- Skills start -->
+		<div id="skills" class="text-center" style="background-color: #70A9A1;">
+			<h2>Skills</h2>
+			<div class="row p-5">
+				<img class="col-2" src="https://image.shutterstock.com/image-photo/coding-language-development-icon-on-260nw-2129073914.jpg">
+				<img class="col-2" src="https://media.istockphoto.com/id/1363205770/photo/word-css-on-wooden-desk-and-laptop.jpg?b=1&s=170667a&w=0&k=20&c=K-1iJ5rmC-MyC40RGWDt_Ro6CaIsMuOTboTFo49uoLk=">
+				<img class="col-2" src="https://image.shutterstock.com/image-photo/donetsk-ukraine-december-2016-html-260nw-537819808.jpg">
+				<img class="col-2" src="https://image.shutterstock.com/image-photo/computer-python-logo-interpreted-programming-260nw-1620093085.jpg">
+				<img class="col-2" src="https://image.shutterstock.com/image-photo/mobile-application-development-c-plus-260nw-1424845742.jpg">
+			</div>
+			<div class="row p-5">
+
+				<p class="col-2">HTML</p>
+				<p class="col-2">CSS</p>
+				<p class="col-2">Bootstrap</p>
+				<p class="col-2">Python</p>
+				<p class="col-2">C++</p>			
+			</div>
+		</div>
+		<!-- Skills end -->
+
+		<!-- Projects start -->
+		<div id="projects" class="text-center p-5" style="background-color: #D4E4BC;">
+			<h2>Projects</h2>
+			<img src="https://media.istockphoto.com/id/1345912457/photo/financial-stock-market-graph-selective-focus.jpg?b=1&s=170667a&w=0&k=20&c=bkFbjmknST5rqnYF4atbFYVAP5EcSpIEl4eYXdSKedg=">
+			<p>I haven't done a lot of IT projects but currently I'm pursuing a Winter Vacation Project which my institute is offering. It's about Algorithm Trading and Stock Market Prediction using Python. Would like to update it after I finish it:)</p>
+		</div>
+		<!-- Projects end -->
+
 		<!-- Contact Us start -->
-		<div class="contact">
+		<div id="contactus" class="contact">
 			<h2 class="text-center">Contact Us</h2>
 			<div style="background-color: #131112; margin: 2px 15% 2px 15%;" class="p-5">
 				<form class="text-center text-white">
@@ -75,7 +106,9 @@
 
 					
 					<label for="notes">Your message:</label>
-					<textarea style="width: 700px;" name="notes" id="notes" rows="5"></textarea><hr>					
+					<textarea style="width: 700px;" name="notes" id="notes" rows="5"></textarea><hr>
+
+					<button class="button text-center">Apply now</button>					
 				</form>		
 			</div>			
 		</div>

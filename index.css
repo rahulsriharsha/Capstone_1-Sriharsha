@@ -24,10 +24,19 @@
 	min-height: 100vh;
 }	
 
-.row{
-	background-color: #96C5B0;
-}
-
 .contact{
 	background-color: #67697C;
+}
+
+.button{
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+html{
+	scroll-behavior: smooth;
 }
